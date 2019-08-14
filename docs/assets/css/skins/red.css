@@ -301,7 +301,7 @@ li.active.btn.filtr-button.filtr {
 
 .pagination > li > a:hover {
     background: #d11718;
-    color: #fff;
+    color: #fff !important;
 }
 
 .read-more {

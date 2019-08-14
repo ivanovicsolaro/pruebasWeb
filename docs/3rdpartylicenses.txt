@@ -44,6 +44,9 @@ MIT
 @ngx-gallery/core
 MIT
 
+angular-ng-autocomplete
+MIT
+
 core-js
 MIT
 Copyright (c) 2014-2019 Denis Pushkarev
