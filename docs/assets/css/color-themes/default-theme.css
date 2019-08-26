@@ -10,12 +10,12 @@
 .property-block-two .lucation i,
 .property-block-two .tags li a,
 .blog-detail .post-share-options .social-icon li a:hover,
-.header-style-seven .main-menu .navigation > li:hover > a,
+.header-style-seven .main-menu .navigation > li:hover > a, 
 .header-style-seven .main-menu .navigation > li.current > a,
-.header-style-three .main-menu .navigation > li:hover > a,
+.header-style-three .main-menu .navigation > li:hover > a, 
 .header-style-three .main-menu .navigation > li.current > a,
 .new-property h3 a:hover,
-.header-style-six .main-menu .navigation > li:hover > a,
+.header-style-six .main-menu .navigation > li:hover > a, 
 .header-style-six .main-menu .navigation > li.current > a,
 .recent-properties .post:hover h3 a,
 .recent-properties .post .location,
@@ -133,15 +133,15 @@
 .main-header .top-left .contact-list li i,
 .scroll-to-top:hover,
 .banner-section.style-two .content-box h2 span,
-.sticky-header .main-menu .navigation > li:hover > a,
-.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li:hover > a, 
+.sticky-header .main-menu .navigation > li.current > a, 
 .sticky-header .main-menu .navigation > li.current-menu-item > a,
 .list-style-one li:before,
 .btn-style-four:hover,
 .btn-style-three:hover,
 .theme_color,
 a{
-	color: #505050;
+	color: #00c0ff;
 }
 
 .header-style-one .header-lower .logo-box:before {
@@ -187,13 +187,13 @@ a{
 .property-block .image-box .featured,
 .property-block .image-box .option-box li,
 .property-block .image-box .for,
-.banner-section.style-two .owl-next:hover,
+.banner-section.style-two .owl-next:hover, 
 .banner-section.style-two .owl-prev:hover,
 .property-search-form .range-slider-one .ui-slider .ui-slider-range,
 .ui-state-active,
-.ui-widget-content .ui-state-active,
-.ui-widget-header .ui-state-active,
-a.ui-button:active, .ui-button:active,
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, 
+a.ui-button:active, .ui-button:active, 
 .ui-button.ui-state-active:hover,
 .property-search-tabs .tab-buttons .tab-btn.active-btn,
 .banner-carousel .owl-dot:hover,
@@ -212,7 +212,7 @@ a.ui-button:active, .ui-button:active,
 .btn-style-five,
 .btn-style-four,
 .btn-style-one{
-	background-color: #505050;
+	background-color: #00c0ff;
 }
 
 
@@ -248,9 +248,9 @@ a.ui-button:active, .ui-button:active,
 .property-search-form .range-slider-one .ui-state-default,
 .property-search-form .range-slider-one .ui-widget-content .ui-state-default,
 .ui-state-active,
-.ui-widget-content .ui-state-active,
-.ui-widget-header .ui-state-active,
-a.ui-button:active, .ui-button:active,
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, 
+a.ui-button:active, .ui-button:active, 
 .ui-button.ui-state-active:hover,
 .property-search-form .form-group input:focus,
 .property-search-form .form-group select:focus,
@@ -279,27 +279,27 @@ a.ui-button:active, .ui-button:active,
 
 
 .rtl .main-menu .navigation > li .mega-menu-bar .column > ul > li > a:hover,
-.rtl .main-menu .navigation > li > ul > li > ul > li:hover > a,
+.rtl .main-menu .navigation > li > ul > li > ul > li:hover > a, 
 .rtl .main-menu .navigation > li > ul > li:hover > a,
 .rtl .property-detail blockquote,
 .rtl .header-style-one .header-lower .logo:after{
-	border-right-color: #505050;
+	border-right-color: #00c0ff;
 }
 
 .property-block-four .status:before,
 .property-block-three .image-box .featured:before,
 .property-block .image-box .featured:before{
-	border-top-color: #505050;
+	border-top-color: #00c0ff;
 }
 
 .btn-style-two:hover{
-	box-shadow: #505050 0 0px 0px 40px inset;
+	box-shadow: #00c0ff 0 0px 0px 40px inset;
 }
 
 @media only screen and (max-width: 767px){
-
+	
 	.main-menu .navbar-header .navbar-toggle{
-		border-color:#505050;
+		border-color:#00c0ff;
 	}
 
 	.main-menu .navbar-header .navbar-toggle,
@@ -319,7 +319,7 @@ a.ui-button:active, .ui-button:active,
 	.main-menu .navigation > li .mega-menu-bar .column > ul > li > a:hover,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background-color: #505050;
+		background-color: #00c0ff;
 	}
-
+	
 }
