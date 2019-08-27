@@ -41,9 +41,6 @@ MIT
 @angular/router
 MIT
 
-@angular/service-worker
-MIT
-
 angular-ng-autocomplete
 MIT
 
