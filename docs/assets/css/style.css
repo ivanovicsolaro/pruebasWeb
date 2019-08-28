@@ -3245,7 +3245,7 @@ a.ui-button:active, .ui-button:active,
 
 .property-block .inner-box{
 	position: relative;
-	box-shadow: 0 0 35px rgba(0, 0, 0, 0.27);
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.20);
 }
 
 .property-block .image-box{
