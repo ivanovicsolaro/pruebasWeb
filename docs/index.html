@@ -1,68 +1,113 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Armacima</title>
-  <!--<base href="/">-->
-  <!-- Stylesheets -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
-  <link href="assets/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
-  <link href="assets/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
-  <!--Color Themes-->
-  <link id="theme-color-file" href="assets/css/color-themes/default-theme.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="LERAMIZ Landing Page Template">
+    <meta name="keywords" content="LERAMIZ, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="assets/img/favicon.ico" rel="shortcut icon" />
 
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-  <!-- Responsive -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalablassets/e=0">
-  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-  <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-  <meta name="theme-color" content="#1976d2">
-<link rel="stylesheet" href="styles.1f0d6d48ac5c4d24854f.css"></head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <link rel='stylesheet' href='https://idangero.us/swiper/dist/css/swiper.min.css'>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+
+    <!--<base href="/">-->
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="styles.6f420dfee59aac7a5283.css"></head>
+
 <body>
-
-<div class="page-wrapper">
-    <!-- Preloader -->
-    <div *ngif="cargando" class="preloader">
-    </div>
     <app-root></app-root>
-</div>
+    <!-- You can use owl-carousel selector to include its component -->
+
+    <script>
+        var url = window.location.href;
+        var pos = url.indexOf('#/');
+        var page = url.substring(pos);
+        var contacto = page.indexOf('contacto');
+    </script>
+    <!--====== Javascripts & Jquery ======-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script *ngIf="contacto > 0" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
+    <script *ngIf="contacto > 0" src="assets/js/map.js"></script>
+    <script src='https://idangero.us/swiper/dist/js/swiper.min.js'></script>
+    <script id="rendered-js">
+        var galleryTop = new Swiper(".gallery-top", {
+            centeredSlides: true,
+            slidesPerView: 1,
+            on: {},
 
 
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <!--Revolution Slider-->
-  <script src="assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-  <script src="assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script src="assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-  <script src="assets/js/main-slider-script.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/dist/css/swiper.min.css"/>
-  <!--End Revolution Slider-->
-  <script src="assets/js/jquery-ui.js"></script>
-  <script src="assets/js/jquery.fancybox.js"></script>
-  <script src="assets/js/owl.js"></script>
-  <script src="assets/js/wow.js"></script>
-  <script src="assets/js/isotope.js"></script>
-  <script src="assets/js/appear.js"></script>
-  <script src="assets/js/script.js"></script>
-  <script type="text/javascript">(function(){var ldk=document.createElement('script'); ldk.type='text/javascript'; ldk.async=true; ldk.src='https://s.cliengo.com/weboptimizer/5d657bdfe4b0c06f4ac270bc/5d657be0e4b0c06f4ac270bf.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s);})();</script>
-  <!-- Color Setting -->
-  <!-- <script src="assets/js/color-settings.js"></script> -->
-  <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime-es2015.703a23e48ad83c851e49.js" type="module"></script><script src="polyfills-es2015.4d31cca2afc45cfd85b5.js" type="module"></script><script src="runtime-es5.465c2333d355155ec5f3.js" nomodule></script><script src="polyfills-es5.2219c87348e60efc0076.js" nomodule></script><script src="scripts.1d1ecd3e5cd401b6be8c.js"></script><script src="main-es2015.fb12740083b1ee1a3ac4.js" type="module"></script><script src="main-es5.04ac568dc691860af65b.js" nomodule></script></body>
+            navigation: {
+                nextEl: ".main-swiper-button-next",
+                prevEl: ".main-swiper-button-prev"
+            }
+        });
+
+
+
+        var galleryThumbs = new Swiper(".gallery-thumbs", {
+            spaceBetween: 10,
+            slidesPerView: "auto",
+            centeredSlides: true,
+            touchRatio: 0.2,
+            slideToClickedSlide: true,
+            on: {}
+
+            /*navigation: {
+                     nextEl: ".thumbs-swiper-button-next",
+                     prevEl: ".thumbs-swiper-button-prev"
+                   }*/
+        });
+
+
+        galleryTop.controller.control = galleryThumbs;
+        galleryThumbs.controller.control = galleryTop;
+
+        function updateWidth(thumbnail) {
+            const img = thumbnail.querySelector("img");
+            const width = img.offsetWidth;
+            thumbnail.style.width = width;
+        }
+
+        function updateWidth(thumbnail) {
+            const img = thumbnail.querySelector("img");
+            const width = img.offsetWidth;
+            thumbnail.style.width = width;
+        }
+
+        window.addEventListener("load", function(event) {
+            let thumbs = document.querySelectorAll(".gallery-thumbs .swiper-slide");
+
+            thumbs.forEach(thumb => updateWidth(thumb));
+        });
+        //# sourceURL=pen.js
+    </script>
+
+<script src="polyfills-es5.3aa54d3e5134f5b5b842.js" nomodule defer></script><script src="polyfills-es2015.fd917e7c3ed57f282ee5.js" type="module"></script><script src="scripts.859e64cef1ef944f8beb.js" defer></script><script src="runtime-es2015.24b02acc1f369d9b9f37.js" type="module"></script><script src="main-es2015.460c69c4cb6284aefcbf.js" type="module"></script><script src="runtime-es5.24b02acc1f369d9b9f37.js" nomodule defer></script><script src="main-es5.460c69c4cb6284aefcbf.js" nomodule defer></script></body>
+
 </html>
