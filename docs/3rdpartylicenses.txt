@@ -97,6 +97,9 @@ ngx-bootstrap/carousel
 
 ngx-bootstrap/utils
 
+ngx-gallery
+MIT
+
 regenerator-runtime
 MIT
 MIT License
