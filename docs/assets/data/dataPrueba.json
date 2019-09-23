@@ -1,0 +1,48 @@
+[
+  {
+    "color": "liderar",
+    "token": "KCMM7Scf5cchJJlCYpfQuHehPT9gXfEW&",
+    "generalDataPage":
+    [{
+        "title": "Liderar Propiedades",
+        "urlLogo": "./assets/img/logos/Liderar.png",
+        "favicon": "./assets/img/logos/favicon.png",
+        "contactAddress": "Callao 3037, Las Condes",
+        "contactEmail": "contacto@mipagina.cl",
+        "contactNumber": "+56 232 505 638",
+        "contactWeb": "www.mipagina.cl",
+        "contactLat": "-31.7646211",
+        "contactLng": "-60.4089316",
+        "facebook": "https://www.facebook.com/ivan",
+        "twitter": "https://www.twitter.com/ivan",
+        "instagram": "https://www.instagram.com/ivan",
+        "youtube": "https://www.youtube.com/ivan",
+        "configPages":
+          [
+            {
+              "HomePage": {
+                "urlImgBackground": "./assets/img/banner2.jpg",
+                "title": "La propiedad de tus sueños está aquí",
+                "subtitle": "Tenemos lo que estás buscando",
+                "content": ""
+              },
+              "ConfianosPage": {
+                "urlImgBackground": "",
+                "title": "",
+                "subtitle": "",
+                "content": "Cualquier TEXTO"
+              },
+              "EmpresaPage": {
+                "urlImgBackground": "",
+                "title": "Somos un equipo comprometido con sus clientes..",
+                "subtitle": "Nuestra Historia",
+                "content": "CUALQUIER TEXTO"
+              }
+            }
+
+          ]
+    }]
+  }
+]
+
+
