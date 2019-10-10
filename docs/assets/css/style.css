@@ -146,7 +146,7 @@ ol {
     line-height: 16px;
     letter-spacing: 2px;
     border-radius: 3px;
-    min-width: 170px;
+    min-width: 120px;
     text-align: center;
     background: #04ae46 ;
     cursor: pointer;
@@ -368,9 +368,9 @@ ol {
 .filter-form select {
     background: #fff;
     height: 46px;
+    width: 100% !important;
     border: none;
     border-radius: 2px;
-    width: calc(20% - 20px);
     margin-right: 20px;
     padding-left: 20px;
     font-size: 14px;
@@ -1878,7 +1878,7 @@ ol {
         width: calc(40% - 20px);
     }
     .filter-form select {
-        width: calc(19% - 20px);
+       /** width: calc(19% - 20px);*/
     }
     .footer-widget .double-menu-widget ul:last-child {
         margin-left: 30px;
