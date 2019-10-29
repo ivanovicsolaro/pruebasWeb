@@ -7,7 +7,7 @@ Preloader
     top:0px;
     position: fixed;
     z-index: 99999;
-    background: #fff;
+    background: #44444461;
     .cssload-speeding-wheel{
         position: absolute;
         top: calc(50% - 3.5px);
