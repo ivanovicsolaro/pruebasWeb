@@ -1,0 +1,51 @@
+<div class="example-container">
+  <app-header (changeStateNavMenu)="oponedNavMenu($event)"></app-header>
+  <mat-sidenav-container hasBackdrop=true>
+    <mat-sidenav #snav mode='over' fixedTopGap="56" [opened]="opened">
+        <mat-nav-list>
+          <a mat-list-item routerLink="."><span class="item-header">Inicio</span></a>
+          <a class="item-title" routerLink="."><span>Mi Clasipro</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Perfil</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Planes</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Configuraciones</span></a>
+          <a class="item-title" routerLink="."><span>Propiedades</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Crear</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Administrar</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Reportes</span></a>
+          <a class="item-title" routerLink="."><span class="title">Mi Oficina</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Administrar</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Portales</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Permisos</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Mi Sitio Web</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Reportes</span></a>
+          <a class="item-title" routerLink="."><span>Agentes</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Administrar</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Actividades</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Reportes</span></a>
+          <a class="item-title" routerLink="."><span>Contactos</span> <span class="label label-rouded label-success pull-right">Nuevo </span></a>
+          <a class="item" mat-list-item routerLink="."><span >Administrar</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Buzón de Mensajes</span> <span class="label label-rouded label-danger pull-right m-l-10 animated rubberBand infinite">25</span></a>
+          <a class="item" mat-list-item routerLink="."><span >Reportes</span></a>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <!-- ============================================================== -->
+      <!-- Container fluid  -->
+      <!-- ============================================================== -->
+      <div class="container-fluid">
+        <router-outlet></router-outlet>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- End Container fluid  -->
+      <!-- ============================================================== -->
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+
+
+<!-- Copyright 2019 Google Inc. All Rights Reserved.
+          Use of this source code is governed by an MIT-style license that
+          can be found in the LICENSE file at http://angular.io/license -->
