@@ -574,9 +574,9 @@ ul.footer-links {
 
 /* Dark Styles */
 #footer.dark {
-	background: #545454;
-	color: #a7a6a6;
-	font-size: 12px;
+  background: #D6D7DB;
+  color: #504f4f;
+  font-size: 12px;
 }
 
 #footer.dark a,
@@ -586,7 +586,6 @@ ul.footer-links {
 	font-size: 15px;
 	padding: 10px 0px;
 	margin: 0px;
-	color: #d4d3d3;
 }
 
 #footer.dark .text-widget,
