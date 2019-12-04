@@ -214,8 +214,8 @@ ul.top-bar-menu li i {
 ------------------------------------- */
 #logo { display: inline-block; margin-top: 1px; }
 
-#logo img { max-height: 43px; width: auto; transform: translate3d(0,0,0); }
-img.footer-logo { max-height: 43px; width: auto; transform: translate3d(0,0,0); }
+#logo img { max-height: 63px; width: auto; transform: translate3d(0,0,0); }
+img.footer-logo { max-height: 63px; width: auto; transform: translate3d(0,0,0); }
 
 #header {
 	position: relative;
@@ -1915,11 +1915,23 @@ transform: rotate(-90deg); }
 
 .mmenu-trigger { display: none; }
 
+@media only screen and (max-width: 1060px) {
+  .first-element {
+    display: none;
+  }
+  .last-element{
+    display: none;
+  }
+
+  .container-fixed {
+    max-width: 930px !important;
+  }
+}
 @media only screen and (max-width: 992px) {
 
 	/* Header Responsive Styles */
-	#responsive { display: none; }
-	.mmenu-trigger { display: inline-block !important; }
+  #responsive { display: none; }
+  .mmenu-trigger { display: inline-block !important; }
 	.header-style-2 .mmenu-trigger { margin:0; top: 6px; }
 
 	.header-style-2 .header-widget a.button.border {float: left;}
