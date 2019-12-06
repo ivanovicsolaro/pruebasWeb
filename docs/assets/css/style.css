@@ -82,7 +82,9 @@
 /* ---------------------------------- */
 /* Topbar
 ------------------------------------- */
-
+p {
+  color: #222222 !important
+}
 /* Common Styles */
 #top-bar {
 	background-color: #66676b;
@@ -575,7 +577,7 @@ ul.footer-links {
 /* Dark Styles */
 #footer.dark {
   background: #D6D7DB;
-  color: #504f4f;
+  color: #222222;
   font-size: 12px;
 }
 
@@ -598,7 +600,7 @@ ul.footer-links {
 #footer.dark .footer-links li:before { color: #666; }
 
 #footer.dark .copyrights {
-	color: #aaa;
+	color: rgb(104, 104, 104);
 	border-top: 1px solid rgba(255,255,255,0.09);
 }
 
@@ -3460,10 +3462,11 @@ body .agent .social-icons li a::before { color: #b0b0b0; }
 
 .agent-name span {
 	font-size: 16px;
-	color: #909090;
+	color: #da0000;
 	margin: 4px 0 -2px 0;
 	line-height: 24px;
-	display: block;
+  display: block;
+  font-weight: 500;
 }
 
 
