@@ -82,7 +82,9 @@
 /* ---------------------------------- */
 /* Topbar
 ------------------------------------- */
-
+p {
+  color: #222222 !important
+}
 /* Common Styles */
 #top-bar {
 	background-color: #66676b;
@@ -214,8 +216,8 @@ ul.top-bar-menu li i {
 ------------------------------------- */
 #logo { display: inline-block; margin-top: 1px; }
 
-#logo img { max-height: 43px; width: auto; transform: translate3d(0,0,0); }
-img.footer-logo { max-height: 43px; width: auto; transform: translate3d(0,0,0); }
+#logo img { max-height: 63px; width: auto; transform: translate3d(0,0,0); }
+img.footer-logo { max-height: 63px; width: auto; transform: translate3d(0,0,0); }
 
 #header {
 	position: relative;
@@ -574,9 +576,9 @@ ul.footer-links {
 
 /* Dark Styles */
 #footer.dark {
-	background: #545454;
-	color: #a7a6a6;
-	font-size: 12px;
+  background: #D6D7DB;
+  color: #222222;
+  font-size: 12px;
 }
 
 #footer.dark a,
@@ -586,7 +588,6 @@ ul.footer-links {
 	font-size: 15px;
 	padding: 10px 0px;
 	margin: 0px;
-	color: #d4d3d3;
 }
 
 #footer.dark .text-widget,
@@ -599,7 +600,7 @@ ul.footer-links {
 #footer.dark .footer-links li:before { color: #666; }
 
 #footer.dark .copyrights {
-	color: #aaa;
+	color: rgb(104, 104, 104);
 	border-top: 1px solid rgba(255,255,255,0.09);
 }
 
@@ -1916,11 +1917,23 @@ transform: rotate(-90deg); }
 
 .mmenu-trigger { display: none; }
 
+@media only screen and (max-width: 1060px) {
+  .first-element {
+    display: none;
+  }
+  .last-element{
+    display: none;
+  }
+
+  .container-fixed {
+    max-width: 930px !important;
+  }
+}
 @media only screen and (max-width: 992px) {
 
 	/* Header Responsive Styles */
-	#responsive { display: none; }
-	.mmenu-trigger { display: inline-block !important; }
+  #responsive { display: none; }
+  .mmenu-trigger { display: inline-block !important; }
 	.header-style-2 .mmenu-trigger { margin:0; top: 6px; }
 
 	.header-style-2 .header-widget a.button.border {float: left;}
@@ -3449,10 +3462,11 @@ body .agent .social-icons li a::before { color: #b0b0b0; }
 
 .agent-name span {
 	font-size: 16px;
-	color: #909090;
+	color: #da0000;
 	margin: 4px 0 -2px 0;
 	line-height: 24px;
-	display: block;
+  display: block;
+  font-weight: 500;
 }
 
 
