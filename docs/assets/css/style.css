@@ -3232,7 +3232,6 @@ body #compare-list li div:last-child .clp-title,
 /* Titlebar
 ------------------------------------- */
 #titlebar {
-	background-color: #f8f8f8;
 	position: relative;
 	padding: 70px 0;
 	margin-bottom: 65px;
@@ -3755,6 +3754,7 @@ button.fs-map-btn.button {
 	background-color: #fff;
 	display: block;
 	width: 100%;
+	height: 300px;
 	border-radius: 3px;
 	margin-bottom: 30px;
 }
@@ -4021,7 +4021,6 @@ ul.listing-details li {
 
 .list-layout .listing-img-container {
 	height: auto;
-	min-height: 350px;
 	flex: 2;
 	overflow: hidden;
 	border-radius: 3px 0 0 3px;
@@ -4029,7 +4028,7 @@ ul.listing-details li {
 
 
 .fullwidth-layout .list-layout .listing-content { flex: 4; }
-.fullwidth-layout .list-layout .listing-img-container { flex: 1.6; }
+.fullwidth-layout .list-layout .listing-img-container { flex: 3; }
 
 
 .list-layout .listing-img-container img {
@@ -4358,7 +4357,6 @@ section.fullwidth.border-bottom { border-bottom: 1px solid #e4e4e4;}
 
 /* Property titlebar */
 #titlebar.property-titlebar {
-	background: linear-gradient(to bottom, #f7f7f7 0%, rgba(255,255,255,0.5));
 	padding: 55px 0;
 	padding-bottom: 45px;
 }
@@ -12866,7 +12864,7 @@ body .daterangepicker .drp-buttons button.cancelBtn {
 	}
 
 	.list-layout .listing-item,
-	.fullwidth-layout .list-layout .listing-content { display: block; }
+	.fullwidth-layout .list-layout .listing-content { display: block; height: auto; }
 	.fullwidth-layout .list-layout .listing-img-container { display: block;}
 	.list-layout .details.button.border { display: none; }
 	.list-layout .listing-title { padding-right: 30px; }
