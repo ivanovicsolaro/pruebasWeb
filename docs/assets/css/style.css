@@ -2045,7 +2045,7 @@ transform: rotate(-90deg); }
 	display: block;
 	width: 100%;
 	position: relative;
-	padding: 170px 0;
+	padding: 40px 0;
 	margin-top: -10px;
 	z-index: 999;
 }
@@ -3180,8 +3180,9 @@ body #compare-list li div:last-child .clp-title,
 	background-repeat: no-repeat;
     background-position: 50% 50%;
     position: relative;
-    z-index: 99;
-	min-height: 600px;
+	z-index: 99;
+	background-size: cover;
+	min-height: 400px;
 }
 
 /* fullscreen setup */
@@ -12479,7 +12480,7 @@ body .daterangepicker .drp-buttons button.cancelBtn {
 
 @media only screen and (max-width: 1366px) and (min-width: 1240px)  {
 	.parallax-content { padding: 74px 0; }
-	.search-container { padding: 130px 0; }
+	.search-container { padding: 40px 0; }
 	.listing-features li { margin-right: 18px; }
 	#header { padding: 22px 0 12px 0; }
 	.fullwidth-home-slider .item, .fullwidth-property-slider .item { height: 520px; }
